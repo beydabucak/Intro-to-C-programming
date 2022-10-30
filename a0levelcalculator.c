@@ -6,7 +6,7 @@ int operation;
 printf("enter two numbers:");
 scanf("%d %d",&number1, &number2);
 printf("press 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division:");
-scanf("%d",&islem);
+scanf("%d",&operation);
 switch(operation){
     case 1:
       printf("result: %d",(number1+number2));
